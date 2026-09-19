@@ -1,0 +1,353 @@
+/* ==========================================================================
+   Design tokens
+   ========================================================================== */
+
+:root {
+    /* Colors — light scheme */
+    --color-bg: #f7f7f8;
+    --color-surface: #ffffff;
+    --color-surface-raised: #f0f0f2;
+    --color-border: #d8d8dc;
+    --color-text: #1a1a1c;
+    --color-text-muted: #6a6a72;
+    --color-primary: #2a5bd7;
+    --color-primary-contrast: #ffffff;
+    --color-toolbar-bg: #ececef;
+
+    /* Layout */
+    --header-content-max-width: 64rem;
+    --app-content-max-width: 64rem;
+
+    /* Blackout (obscured entry line) */
+    --color-blackout-bg: #d8d8dc;
+    --color-blackout-text: transparent;
+
+    /* Spacing */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+
+    /* Shape */
+    --border-width: 1px;
+    --border-radius: 0.375rem;
+
+    /* Typography */
+    --font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.25rem;
+    --line-height-base: 1.5;
+
+    /* Motion */
+    --transition-duration: 150ms;
+
+    /* Component sizing */
+    --entry-line-min-height: 1.75rem;
+    --header-sticky-top: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-bg: #141416;
+        --color-surface: #1e1e21;
+        --color-surface-raised: #2a2a2e;
+        --color-border: #3a3a40;
+        --color-text: #ececef;
+        --color-text-muted: #9a9aa4;
+        --color-primary: #6a8fff;
+        --color-primary-contrast: #0e0e10;
+        --color-toolbar-bg: #232327;
+
+        --color-blackout-bg: #3a3a40;
+        --color-blackout-text: transparent;
+    }
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+}
+
+button,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.app-chrome {
+    position: sticky;
+    top: var(--header-sticky-top);
+    z-index: 10;
+}
+
+.app-header {
+    background: var(--color-surface);
+    border-bottom: var(--border-width) solid var(--color-border);
+    padding: var(--space-md);
+}
+
+.app-header__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    align-items: center;
+    justify-content: space-between;
+    max-width: var(--header-content-max-width);
+    margin: 0 auto;
+}
+
+.app-header__title {
+    margin: 0;
+    font-size: var(--font-size-lg);
+}
+
+.app-header__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    align-items: center;
+}
+
+.app-toolbar {
+    background: var(--color-toolbar-bg);
+    border-bottom: var(--border-width) solid var(--color-border);
+    padding: var(--space-sm) var(--space-md);
+}
+
+.app-toolbar__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    align-items: center;
+    max-width: var(--header-content-max-width);
+    margin: 0 auto;
+}
+
+/* ==========================================================================
+   Controls
+   ========================================================================== */
+
+.control {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.control__label {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+.control__select {
+    padding: var(--space-xs) var(--space-sm);
+    background: var(--color-surface-raised);
+    border: var(--border-width) solid var(--color-border);
+    border-radius: var(--border-radius);
+    color: var(--color-text);
+}
+
+.control__select:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+.control-group {
+    display: flex;
+    gap: var(--space-xs);
+}
+
+.toggle-button,
+.lang-button {
+    padding: var(--space-xs) var(--space-sm);
+    background: var(--color-surface-raised);
+    border: var(--border-width) solid var(--color-border);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color var(--transition-duration) ease;
+}
+
+.toggle-button:hover,
+.lang-button:hover {
+    background: var(--color-border);
+}
+
+.toggle-button:focus-visible,
+.lang-button:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+.lang-button[aria-pressed="true"] {
+    background: var(--color-primary);
+    color: var(--color-primary-contrast);
+    border-color: var(--color-primary);
+}
+
+/* ==========================================================================
+   Main
+   ========================================================================== */
+
+.app-main {
+    max-width: var(--app-content-max-width);
+    margin: 0 auto;
+    padding: var(--space-lg) var(--space-md);
+}
+
+.app-main__status {
+    color: var(--color-text-muted);
+}
+
+/* ==========================================================================
+   Category
+   ========================================================================== */
+
+.category {
+    margin-bottom: var(--space-xl);
+}
+
+.category__heading {
+    margin: 0 0 var(--space-md);
+    font-size: var(--font-size-lg);
+}
+
+/* ==========================================================================
+   Section (uses collapsible-panel behavior classes)
+   ========================================================================== */
+
+.section {
+    margin-bottom: var(--space-md);
+    border: var(--border-width) solid var(--color-border);
+    border-radius: var(--border-radius);
+    background: var(--color-surface);
+    overflow: hidden;
+}
+
+.section__trigger {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    width: 100%;
+    padding: var(--space-sm) var(--space-md);
+    background: var(--color-surface);
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+}
+
+.section__trigger:hover {
+    background: var(--color-surface-raised);
+}
+
+.section__trigger:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: -2px;
+}
+
+.section__twistie {
+    color: var(--color-text-muted);
+}
+
+.section__title {
+    font-weight: 600;
+}
+
+.section__content>* {
+    padding: 0 var(--space-md) var(--space-md);
+}
+
+.section__body {
+    margin-top: var(--space-md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+/* ==========================================================================
+   Entry and entry line
+   ========================================================================== */
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.entry__line {
+    display: block;
+    width: 100%;
+    min-height: var(--entry-line-min-height);
+    padding: var(--space-xs) var(--space-sm);
+    background: var(--color-surface-raised);
+    border: var(--border-width) solid var(--color-border);
+    border-radius: var(--border-radius);
+    color: var(--color-text);
+    text-align: left;
+    cursor: pointer;
+    transition:
+        background-color var(--transition-duration) ease,
+        color var(--transition-duration) ease,
+        border-color var(--transition-duration) ease;
+}
+
+.entry__line:hover {
+    border-color: var(--color-primary);
+}
+
+.entry__line:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+.entry__line[aria-pressed="false"] {
+    background: var(--color-blackout-bg);
+    color: var(--color-blackout-text);
+    border-color: var(--color-blackout-bg);
+    user-select: none;
+}
+
+.entry__line--ru {
+    font-weight: 500;
+}
+
+.entry__line--en {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+.entry__line--en[aria-pressed="false"] {
+    color: var(--color-blackout-text);
+}
+
+/* ==========================================================================
+   General utilities
+   ========================================================================== */
+
+.is-hidden {
+    display: none;
+}

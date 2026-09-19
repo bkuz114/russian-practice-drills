@@ -1,0 +1,171 @@
+:root {
+    /*
+     * default twistie icon. user can override with
+     * .icon option to createCollapsiblePanel
+     */
+    --twistie-icon: '▶';
+}
+
+/* ==========================================================================
+   Collapsible Panel Component Styles
+   ==========================================================================
+   A reusable collapsible panel with CSS-driven expand/collapse animation.
+   Uses design tokens from :root for theming.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Root (the main panel container)
+
+   - .collapsible-panel--behavior is always applied to root container element
+     via collapsible-panel.js, regardless of user-provided class overrides.
+     It is a behavioral hook: its presence with .is-closed drives content animation.
+
+   - .collapsible-panel is styling only, and user can override by passing
+     their own list of classes to classList.root.
+   -------------------------------------------------------------------------- */
+
+.collapsible-panel {
+    border: var(--border-width) solid var(--color-border);
+    border-radius: var(--border-radius);
+    background: var(--color-surface);
+    overflow: hidden;
+}
+
+/* --------------------------------------------------------------------------
+   Trigger (the clickable header)
+
+   - .collapsible-panel__trigger--behavior is always applied to the trigger
+     element, regardless of user-provided class overrides. It is
+     a behavioral hook: its aria-expanded attribute drives the
+     twistie state (see twistie rule below).
+
+   - .collapsible-panel__trigger is styling only, and user
+     can override by passing their own list of classes to
+     classList.trigger
+   -------------------------------------------------------------------------- */
+
+.collapsible-panel__trigger {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    width: 100%;
+    padding: var(--space-sm) var(--space-md);
+    background: var(--color-surface);
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    text-align: left;
+}
+
+.collapsible-panel__trigger:hover {
+    background: var(--color-metadata-bg);
+}
+
+.collapsible-panel__trigger:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: -2px;
+}
+
+/* --------------------------------------------------------------------------
+   Twistie (expand/collapse indicator)
+   Controlled entirely by CSS — rotates when panel is open.
+
+   Controlled via 3 different classes:
+
+   - .collapsible-panel__twistie
+      Default styling for <span> twistie is in (color, size)
+      User can override via classList.twistie
+   - .collapsible-panel__twistie--behavior
+      Controls rotation. Always present; user can not override
+   - .collapsible-panel__trigger--behavior
+      Defined on parent trigger element.
+      Used to determine if panel is open and if to rotate twistie
+      Always present (Added by JavaScript)
+   -------------------------------------------------------------------------- */
+
+.collapsible-panel__twistie {
+    width: 1rem;
+    height: 1rem;
+    font-size: 0.65rem;
+    line-height: 1rem;
+    color: var(--color-text-muted);
+}
+
+.collapsible-panel__twistie--behavior {
+    display: inline-block;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+    transform-origin: center;
+}
+
+.collapsible-panel__twistie--behavior::before {
+    content: var(--twistie-icon);
+    display: block;
+}
+
+/*
+ * When panel is open, rotate twistie to point down
+ * - Determine if a panel is open based on the twistie's direct
+ *   parent (trigger button in the header) having aria-expanded true;
+ * - Do this rather than looking at the actual panel's .is-open state
+ *   (which at first seems like the obvious check) for the following reason:
+ * - if you look for any ancestor panel with is-open, it will break
+ *   the twistie animation if it's part of a nested panel (as a nesting
+ *   panel being open would trigger the rule, making the nested twistie
+ *   rotate, even though they are not the same panel.)
+ * - Currently, the panel <div> is grandfather to the twistie, and so
+ *   could specify to only look at the grandfather <div> with .is-open,
+ *   but I do not want to do this in case the structure changes.
+ * - This rule below also relies on structure (trigger being the
+ *   direct parent), but of the two, this is more reliable, as there's
+ *   less chance of this state changing.
+ *
+ * Note:
+ * - collapsible-panel__trigger--behavior always added to trigger element
+ *   regardless of user overrides (it will be appended to any user specified
+ *   classes). It is behavioral only, to deal with twistie animation.
+ */
+.collapsible-panel__trigger--behavior[aria-expanded="true"]>.collapsible-panel__twistie--behavior {
+    transform: rotate(90deg);
+}
+
+/* --------------------------------------------------------------------------
+   Content region
+   Uses CSS grid trick for smooth height animation:
+   - Closed: grid-template-rows: 0fr → inner content has 0 height
+   - Open: grid-template-rows: 1fr → inner content expands naturally
+
+   .collapsible-panel__content--behavior added to every content <div> regardless
+   of user override
+   -------------------------------------------------------------------------- */
+.collapsible-panel__content--behavior {
+    display: grid;
+    grid-template-rows: 1fr;
+    transition: grid-template-rows 0.2s ease;
+}
+
+.collapsible-panel__content--behavior>* {
+    overflow: hidden;
+    min-height: 0;
+}
+
+.collapsible-panel--behavior.is-closed .collapsible-panel__content--behavior {
+    grid-template-rows: 0fr;
+}
+
+/* Hide content from screen readers when closed */
+.collapsible-panel__content--behavior[hidden] {
+    display: none;
+}
+
+/* --------------------------------------------------------------------------
+   Content body default styling in case of no user override.
+   (inner wrapper for padding)
+   - user can override by passing own classes to classList.content
+   -------------------------------------------------------------------------- */
+.collapsible-panel__content>* {
+    padding: var(--space-md);
+    color: var(--color-text);
+}

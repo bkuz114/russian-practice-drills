@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="page.title"></title>
+    <link rel="stylesheet" href="assets/css/collapsible-panel.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="app-chrome">
+        <header class="app-header">
+            <div class="app-header__row">
+                <h1 class="app-header__title" data-i18n="page.title"></h1>
+
+                <div class="app-header__controls">
+                    <label class="control">
+                        <span class="control__label" data-i18n="controls.categoryLabel"></span>
+                        <select class="control__select" id="category-select" data-i18n-aria-label="controls.categoryAriaLabel"></select>
+                    </label>
+
+                    <div class="control-group" role="group" data-i18n-aria-label="controls.uiLangGroupAriaLabel">
+                        <button type="button" class="lang-button" data-ui-lang="ru">RU</button>
+                        <button type="button" class="lang-button" data-ui-lang="en">EN</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="app-toolbar">
+            <div class="app-toolbar__row">
+                <div class="control-group" role="group" data-i18n-aria-label="controls.contentToggleGroupAriaLabel">
+                    <button type="button" class="toggle-button" id="toggle-ru" aria-pressed="true">
+                        <span id="toggle-ru-label"></span>
+                    </button>
+                    <button type="button" class="toggle-button" id="toggle-en" aria-pressed="true">
+                        <span id="toggle-en-label"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="app-main" id="app-main">
+        <p class="app-main__status" id="status" data-i18n="status.loading"></p>
+    </main>
+
+    <script type="module" src="assets/js/app.js"></script>
+</body>
+
+</html>
