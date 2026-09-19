@@ -1,0 +1,135 @@
+{
+  "id": "to-particle",
+  "name": {
+    "ru": "Частица «-то»",
+    "en": "The particle «-то»"
+  },
+  "sections": [
+    {
+      "id": "to.emphatic",
+      "name": {
+        "ru": "Усиление и выделение",
+        "en": "Emphasis / highlighting"
+      },
+      "entries": [
+        {
+          "id": "to.e.001",
+          "ru": "Я-то думал, ты знаешь.",
+          "en": "I for one thought you knew."
+        },
+        {
+          "id": "to.e.002",
+          "ru": "Он-то мне и помог.",
+          "en": "He's the one who helped me."
+        },
+        {
+          "id": "to.e.003",
+          "ru": "Ты-то что об этом знаешь?",
+          "en": "What do you know about it, anyway?"
+        },
+        {
+          "id": "to.e.004",
+          "ru": "Дом-то старый, но крепкий.",
+          "en": "The house is old, sure, but solid."
+        },
+        {
+          "id": "to.e.005",
+          "ru": "Работа-то не трудная.",
+          "en": "The work itself isn't hard."
+        }
+      ]
+    },
+    {
+      "id": "to.topicShift",
+      "name": {
+        "ru": "Смена темы / возврат к теме",
+        "en": "Topic shift / returning to a topic"
+      },
+      "entries": [
+        {
+          "id": "to.t.001",
+          "ru": "А ты-то как?",
+          "en": "And how about you?"
+        },
+        {
+          "id": "to.t.002",
+          "ru": "Что касается работы-то, я ещё думаю.",
+          "en": "As for the job, I'm still thinking."
+        },
+        {
+          "id": "to.t.003",
+          "ru": "Он-то приехал, а она нет.",
+          "en": "He came, but she didn't."
+        },
+        {
+          "id": "to.t.004",
+          "ru": "Погода-то какая хорошая!",
+          "en": "What lovely weather!"
+        }
+      ]
+    },
+    {
+      "id": "to.conditionals",
+      "name": {
+        "ru": "В условных и уступительных конструкциях",
+        "en": "In conditional and concessive constructions"
+      },
+      "entries": [
+        {
+          "id": "to.cond.001",
+          "ru": "Если уж идти-то, то всем вместе.",
+          "en": "If we're going at all, then all together."
+        },
+        {
+          "id": "to.cond.002",
+          "ru": "Взялся за дело-то — доведи до конца.",
+          "en": "If you've taken something on, see it through."
+        },
+        {
+          "id": "to.cond.003",
+          "ru": "Хоть и устал-то, но пошёл.",
+          "en": "Even though he was tired, he went."
+        }
+      ]
+    },
+    {
+      "id": "to.indefinite",
+      "name": {
+        "ru": "В неопределённых местоимениях и наречиях",
+        "en": "In indefinite pronouns and adverbs"
+      },
+      "entries": [
+        {
+          "id": "to.i.001",
+          "ru": "Кто-то звонил.",
+          "en": "Someone called."
+        },
+        {
+          "id": "to.i.002",
+          "ru": "Что-то случилось.",
+          "en": "Something happened."
+        },
+        {
+          "id": "to.i.003",
+          "ru": "Где-то здесь.",
+          "en": "Somewhere around here."
+        },
+        {
+          "id": "to.i.004",
+          "ru": "Когда-то давно.",
+          "en": "Once, long ago."
+        },
+        {
+          "id": "to.i.005",
+          "ru": "Как-то раз я его встретил.",
+          "en": "I ran into him once."
+        },
+        {
+          "id": "to.i.006",
+          "ru": "Почему-то он молчал.",
+          "en": "For some reason he stayed silent."
+        }
+      ]
+    }
+  ]
+}

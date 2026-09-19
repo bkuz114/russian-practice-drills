@@ -1,0 +1,175 @@
+{
+  "id": "indefinite",
+  "name": {
+    "ru": "-то, -нибудь, кое-",
+    "en": "-то, -нибудь, кое-"
+  },
+  "sections": [
+    {
+      "id": "indef.to",
+      "name": {
+        "ru": "«-то» — конкретное, но неизвестное",
+        "en": "«-то» — specific but unidentified"
+      },
+      "entries": [
+        {
+          "id": "indef.to.001",
+          "ru": "Кто-то звонил, но я не взял трубку.",
+          "en": "Someone called, but I didn't pick up. (a specific person — I just don't know who)"
+        },
+        {
+          "id": "indef.to.002",
+          "ru": "Я что-то купил по дороге домой.",
+          "en": "I bought something on the way home. (a specific thing — I know what it is)"
+        },
+        {
+          "id": "indef.to.003",
+          "ru": "Он где-то живёт на окраине.",
+          "en": "He lives somewhere on the outskirts. (a specific place — I just don't know exactly where)"
+        },
+        {
+          "id": "indef.to.004",
+          "ru": "Она когда-то работала в школе.",
+          "en": "She worked at a school at some point. (a specific time in the past)"
+        },
+        {
+          "id": "indef.to.005",
+          "ru": "Почему-то он молчал весь вечер.",
+          "en": "For some reason he stayed silent all evening. (there is a reason — I don't know it)"
+        },
+        {
+          "id": "indef.to.006",
+          "ru": "Как-то раз я встретил его в метро.",
+          "en": "Once I ran into him on the metro. (one specific occasion)"
+        },
+        {
+          "id": "indef.to.007",
+          "ru": "Что-то мне подсказывает, что он врёт.",
+          "en": "Something tells me he's lying. (a specific feeling I can't articulate)"
+        },
+        {
+          "id": "indef.to.008",
+          "ru": "Кто-то оставил зонт в коридоре.",
+          "en": "Someone left an umbrella in the hallway. (a specific umbrella, a specific someone — unknown)"
+        }
+      ]
+    },
+    {
+      "id": "indef.nibud",
+      "name": {
+        "ru": "«-нибудь» — любое, неконкретное",
+        "en": "«-нибудь» — any, non-specific"
+      },
+      "entries": [
+        {
+          "id": "indef.nibud.001",
+          "ru": "Кто-нибудь звонил, пока меня не было?",
+          "en": "Did anyone call while I was out? (any caller at all — no one specific in mind)"
+        },
+        {
+          "id": "indef.nibud.002",
+          "ru": "Купи что-нибудь к чаю.",
+          "en": "Buy something to go with tea. (anything will do — no specific item in mind)"
+        },
+        {
+          "id": "indef.nibud.003",
+          "ru": "Давай встретимся где-нибудь в центре.",
+          "en": "Let's meet somewhere in the centre. (anywhere in the centre — undecided)"
+        },
+        {
+          "id": "indef.nibud.004",
+          "ru": "Зайди ко мне когда-нибудь.",
+          "en": "Drop by sometime. (any time in the future — indefinite)"
+        },
+        {
+          "id": "indef.nibud.005",
+          "ru": "Если что-нибудь случится, позвони.",
+          "en": "If anything happens, call me. (any possible thing)"
+        },
+        {
+          "id": "indef.nibud.006",
+          "ru": "Расскажи что-нибудь интересное.",
+          "en": "Tell me something interesting. (anything interesting — you choose)"
+        },
+        {
+          "id": "indef.nibud.007",
+          "ru": "Может, кто-нибудь знает ответ?",
+          "en": "Maybe someone knows the answer? (does any one of you know — unknown who)"
+        },
+        {
+          "id": "indef.nibud.008",
+          "ru": "Он как-нибудь справится.",
+          "en": "He'll manage somehow. (by some means — undetermined)"
+        }
+      ]
+    },
+    {
+      "id": "indef.koe",
+      "name": {
+        "ru": "«кое-» — известное говорящему, но не названное",
+        "en": "«кое-» — known to the speaker but not named"
+      },
+      "entries": [
+        {
+          "id": "indef.koe.001",
+          "ru": "Кое-кто приходил, но не представился.",
+          "en": "A certain someone came by, but didn't introduce themselves. (I know who — I'm not saying)"
+        },
+        {
+          "id": "indef.koe.002",
+          "ru": "Мне нужно кое-что тебе сказать.",
+          "en": "I need to tell you something. (a specific thing — I know what, but not yet)"
+        },
+        {
+          "id": "indef.koe.003",
+          "ru": "Он кое-где побывал этим летом.",
+          "en": "He went to a few places this summer. (specific places — I know which, but won't list them)"
+        },
+        {
+          "id": "indef.koe.004",
+          "ru": "Кое-какие детали я забыл.",
+          "en": "I forgot a few details. (specific details — I know which ones I've forgotten)"
+        },
+        {
+          "id": "indef.koe.005",
+          "ru": "Мы кое-как добрались до дома.",
+          "en": "We barely made it home. (with difficulty — fixed expression, means 'somehow, with effort')"
+        }
+      ]
+    },
+    {
+      "id": "indef.contrast",
+      "name": {
+        "ru": "Сравнение: одна ситуация, разные формы",
+        "en": "Contrast: same situation, different forms"
+      },
+      "entries": [
+        {
+          "id": "indef.contrast.001",
+          "ru": "Кто-то звонил. — Кто-нибудь звонил?",
+          "en": "Someone called. (a specific person) — Did anyone call? (any caller at all)"
+        },
+        {
+          "id": "indef.contrast.002",
+          "ru": "Я что-то купил. — Купи что-нибудь.",
+          "en": "I bought something. (a specific thing) — Buy something. (anything)"
+        },
+        {
+          "id": "indef.contrast.003",
+          "ru": "Он где-то живёт. — Давай встретимся где-нибудь.",
+          "en": "He lives somewhere. (a specific place) — Let's meet somewhere. (anywhere)"
+        },
+        {
+          "id": "indef.contrast.004",
+          "ru": "Она когда-то работала здесь. — Заходи когда-нибудь.",
+          "en": "She worked here at some point. (a specific past time) — Drop by sometime. (any future time)"
+        },
+        {
+          "id": "indef.contrast.005",
+          "ru": "Кое-кто звонил. — Кто-то звонил. — Кто-нибудь звонил?",
+          "en": "A certain someone called. (I know who) — Someone called. (unknown to me) — Did anyone call? (any caller)"
+        }
+      ]
+    }
+  ]
+}

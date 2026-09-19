@@ -1,0 +1,213 @@
+{
+  "id": "by",
+  "name": {
+    "ru": "Частица «бы»",
+    "en": "The particle «бы»"
+  },
+  "sections": [
+    {
+      "id": "by.level1",
+      "name": {
+        "ru": "Уровень 1 — устойчивые сочетания",
+        "en": "Level 1 — formulaic phrases"
+      },
+      "entries": [
+        {
+          "id": "by.l1.001",
+          "ru": "Я бы сказал...",
+          "en": "I would say..."
+        },
+        {
+          "id": "by.l1.002",
+          "ru": "Я бы хотел...",
+          "en": "I would like..."
+        },
+        {
+          "id": "by.l1.003",
+          "ru": "Я бы не стал...",
+          "en": "I wouldn't..."
+        },
+        {
+          "id": "by.l1.004",
+          "ru": "Ты бы мог...",
+          "en": "You could..."
+        },
+        {
+          "id": "by.l1.005",
+          "ru": "Не могли бы вы...?",
+          "en": "Could you...?"
+        },
+        {
+          "id": "by.l1.006",
+          "ru": "Хотелось бы...",
+          "en": "I would like..."
+        },
+        {
+          "id": "by.l1.007",
+          "ru": "Скорее бы...",
+          "en": "If only... would come sooner..."
+        },
+        {
+          "id": "by.l1.008",
+          "ru": "Лучше бы...",
+          "en": "It would be better if..."
+        }
+      ]
+    },
+    {
+      "id": "by.level2",
+      "name": {
+        "ru": "Уровень 2 — вежливые просьбы",
+        "en": "Level 2 — polite requests"
+      },
+      "entries": [
+        {
+          "id": "by.l2.001",
+          "ru": "Я бы хотел чашку кофе.",
+          "en": "I would like a cup of coffee."
+        },
+        {
+          "id": "by.l2.002",
+          "ru": "Не могли бы вы помочь?",
+          "en": "Could you help?"
+        },
+        {
+          "id": "by.l2.003",
+          "ru": "Вы не могли бы говорить помедленнее?",
+          "en": "Could you speak more slowly?"
+        },
+        {
+          "id": "by.l2.004",
+          "ru": "Я бы хотел узнать...",
+          "en": "I would like to find out..."
+        },
+        {
+          "id": "by.l2.005",
+          "ru": "Ты бы не мог позвонить ему?",
+          "en": "Could you call him?"
+        }
+      ]
+    },
+    {
+      "id": "by.level3",
+      "name": {
+        "ru": "Уровень 3 — простые условные",
+        "en": "Level 3 — simple conditionals"
+      },
+      "entries": [
+        {
+          "id": "by.l3.001",
+          "ru": "Если бы я знал, я бы сказал.",
+          "en": "If I had known, I would have said."
+        },
+        {
+          "id": "by.l3.002",
+          "ru": "Если бы у меня было время, я бы поехал.",
+          "en": "If I had time, I would go."
+        },
+        {
+          "id": "by.l3.003",
+          "ru": "Если бы он пришёл, мы бы начали.",
+          "en": "If he had come, we would have started."
+        },
+        {
+          "id": "by.l3.004",
+          "ru": "Я бы пошёл, если бы не работа.",
+          "en": "I would go if it weren't for work."
+        },
+        {
+          "id": "by.l3.005",
+          "ru": "Если бы ты хотел, ты бы сделал.",
+          "en": "If you wanted to, you would have done it."
+        }
+      ]
+    },
+    {
+      "id": "by.level4",
+      "name": {
+        "ru": "Уровень 4 — пожелания",
+        "en": "Level 4 — wishes"
+      },
+      "entries": [
+        {
+          "id": "by.l4.001",
+          "ru": "Скорей бы лето.",
+          "en": "If only summer would come soon."
+        },
+        {
+          "id": "by.l4.002",
+          "ru": "Хоть бы он позвонил.",
+          "en": "If only he would call."
+        },
+        {
+          "id": "by.l4.003",
+          "ru": "Если бы только я мог...",
+          "en": "If only I could..."
+        },
+        {
+          "id": "by.l4.004",
+          "ru": "Вот бы сейчас на море.",
+          "en": "If only I were at the sea right now."
+        }
+      ]
+    },
+    {
+      "id": "by.level5",
+      "name": {
+        "ru": "Уровень 5 — смешанные",
+        "en": "Level 5 — mixed / natural"
+      },
+      "entries": [
+        {
+          "id": "by.l5.001",
+          "ru": "Я бы с удовольствием, но не могу.",
+          "en": "I would gladly, but I can't."
+        },
+        {
+          "id": "by.l5.002",
+          "ru": "Кто бы мог подумать?",
+          "en": "Who would have thought?"
+        },
+        {
+          "id": "by.l5.003",
+          "ru": "Что бы я без тебя делал?",
+          "en": "What would I do without you?"
+        },
+        {
+          "id": "by.l5.004",
+          "ru": "Я бы на твоём месте не согласился.",
+          "en": "I wouldn't agree if I were you."
+        },
+        {
+          "id": "by.l5.005",
+          "ru": "Трудно было бы не заметить.",
+          "en": "It would be hard not to notice."
+        }
+      ]
+    },
+    {
+      "id": "by.level6",
+      "name": {
+        "ru": "Уровень 6 — условные с «бы» в обеих частях",
+        "en": "Level 6 — conditionals with бы on both sides"
+      },
+      "entries": [
+        {
+          "id": "by.l6.001",
+          "ru": "Если бы я знал, что ты придёшь, я бы остался.",
+          "en": "If I had known you'd come, I would have stayed."
+        },
+        {
+          "id": "by.l6.002",
+          "ru": "Если бы она захотела, он бы всё бросил.",
+          "en": "If she wanted to, he would drop everything."
+        },
+        {
+          "id": "by.l6.003",
+          "ru": "Если бы мы вышли раньше, мы бы не опоздали.",
+          "en": "If we had left earlier, we wouldn't have been late."
+        }
+      ]
+    }
+  ]
+}

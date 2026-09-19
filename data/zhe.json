@@ -1,0 +1,150 @@
+{
+  "id": "zhe",
+  "name": {
+    "ru": "Частица «же»",
+    "en": "The particle «же»"
+  },
+  "sections": [
+    {
+      "id": "zhe.contrast",
+      "name": {
+        "ru": "Контраст и противопоставление",
+        "en": "Contrast and opposition"
+      },
+      "entries": [
+        {
+          "id": "zhe.c.001",
+          "ru": "Я же тебе говорил.",
+          "en": "I told you, didn't I."
+        },
+        {
+          "id": "zhe.c.002",
+          "ru": "Он же не знал.",
+          "en": "He didn't know, after all."
+        },
+        {
+          "id": "zhe.c.003",
+          "ru": "Ты же обещал.",
+          "en": "You promised, remember."
+        },
+        {
+          "id": "zhe.c.004",
+          "ru": "Это же очевидно.",
+          "en": "It's obvious, isn't it."
+        },
+        {
+          "id": "zhe.c.005",
+          "ru": "Я же не виноват.",
+          "en": "It's not my fault, you know."
+        },
+        {
+          "id": "zhe.c.006",
+          "ru": "Мы же договорились.",
+          "en": "We agreed, didn't we."
+        }
+      ]
+    },
+    {
+      "id": "zhe.emphasis",
+      "name": {
+        "ru": "Усиление",
+        "en": "Emphasis / intensification"
+      },
+      "entries": [
+        {
+          "id": "zhe.e.001",
+          "ru": "Сегодня же позвоню.",
+          "en": "I'll call today, this very day."
+        },
+        {
+          "id": "zhe.e.002",
+          "ru": "Сейчас же иди сюда.",
+          "en": "Come here right now."
+        },
+        {
+          "id": "zhe.e.003",
+          "ru": "Там же и встретимся.",
+          "en": "We'll meet right there."
+        },
+        {
+          "id": "zhe.e.004",
+          "ru": "Он живёт в том же доме.",
+          "en": "He lives in the same building."
+        },
+        {
+          "id": "zhe.e.005",
+          "ru": "Я купил ту же книгу.",
+          "en": "I bought the same book."
+        }
+      ]
+    },
+    {
+      "id": "zhe.afterAll",
+      "name": {
+        "ru": "«Ведь» / «же» — напоминание",
+        "en": "After all / as you know (reminder)"
+      },
+      "entries": [
+        {
+          "id": "zhe.a.001",
+          "ru": "Он же ребёнок ещё.",
+          "en": "He's still a child, after all."
+        },
+        {
+          "id": "zhe.a.002",
+          "ru": "Ты же знаешь, как я это ненавижу.",
+          "en": "You know how much I hate this."
+        },
+        {
+          "id": "zhe.a.003",
+          "ru": "Она же только что пришла.",
+          "en": "She just arrived, you know."
+        },
+        {
+          "id": "zhe.a.004",
+          "ru": "Мы же здесь не первый раз.",
+          "en": "It's not our first time here, after all."
+        }
+      ]
+    },
+    {
+      "id": "zhe.fixed",
+      "name": {
+        "ru": "Устойчивые сочетания",
+        "en": "Fixed expressions"
+      },
+      "entries": [
+        {
+          "id": "zhe.f.001",
+          "ru": "Что же делать?",
+          "en": "What's to be done, then?"
+        },
+        {
+          "id": "zhe.f.002",
+          "ru": "Где же он?",
+          "en": "Where on earth is he?"
+        },
+        {
+          "id": "zhe.f.003",
+          "ru": "Как же так?",
+          "en": "How can that be?"
+        },
+        {
+          "id": "zhe.f.004",
+          "ru": "Почему же нет?",
+          "en": "Why not, after all?"
+        },
+        {
+          "id": "zhe.f.005",
+          "ru": "Кто же это сделал?",
+          "en": "Who on earth did this?"
+        },
+        {
+          "id": "zhe.f.006",
+          "ru": "Так же, как всегда.",
+          "en": "Just like always."
+        }
+      ]
+    }
+  ]
+}
