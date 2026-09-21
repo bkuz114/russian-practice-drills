@@ -1,0 +1,424 @@
+{
+  "id": "emotions",
+  "name": {
+    "ru": "Эмоции и отношения",
+    "en": "Emotions and relationships"
+  },
+  "sections": [
+    {
+      "id": "emotions_warmth",
+      "name": {
+        "ru": "Тепло и близость",
+        "en": "Warmth and closeness"
+      },
+      "entries": [
+        {
+          "id": "emotions_warmth_001",
+          "ru": "обнимать",
+          "en": "to hug, to embrace"
+        },
+        {
+          "id": "emotions_warmth_002",
+          "ru": "обнять",
+          "en": "to hug (once, completed)"
+        },
+        {
+          "id": "emotions_warmth_003",
+          "ru": "прижимать к себе",
+          "en": "to hold close, to press to oneself"
+        },
+        {
+          "id": "emotions_warmth_004",
+          "ru": "целовать",
+          "en": "to kiss"
+        },
+        {
+          "id": "emotions_warmth_005",
+          "ru": "поцеловать",
+          "en": "to kiss (once, completed)"
+        },
+        {
+          "id": "emotions_warmth_006",
+          "ru": "гладить по голове",
+          "en": "to stroke someone's head"
+        },
+        {
+          "id": "emotions_warmth_007",
+          "ru": "держать за руку",
+          "en": "to hold hands with someone"
+        },
+        {
+          "id": "emotions_warmth_008",
+          "ru": "улыбаться",
+          "en": "to smile (at someone)"
+        },
+        {
+          "id": "emotions_warmth_009",
+          "ru": "улыбнуться",
+          "en": "to smile (once)"
+        },
+        {
+          "id": "emotions_warmth_010",
+          "ru": "улыбка",
+          "en": "a smile (noun)"
+        },
+        {
+          "id": "emotions_warmth_011",
+          "ru": "заботиться о ком-то",
+          "en": "to care for someone"
+        },
+        {
+          "id": "emotions_warmth_012",
+          "ru": "поддерживать",
+          "en": "to support (emotionally)"
+        }
+      ]
+    },
+    {
+      "id": "emotions_friction",
+      "name": {
+        "ru": "Трение и конфликт",
+        "en": "Friction and conflict"
+      },
+      "entries": [
+        {
+          "id": "emotions_friction_001",
+          "ru": "ссориться",
+          "en": "to quarrel, to argue (ongoing)"
+        },
+        {
+          "id": "emotions_friction_002",
+          "ru": "поссориться",
+          "en": "to quarrel (once, completed)"
+        },
+        {
+          "id": "emotions_friction_003",
+          "ru": "ругаться",
+          "en": "to argue, to swear at each other"
+        },
+        {
+          "id": "emotions_friction_004",
+          "ru": "обижать",
+          "en": "to offend, to hurt someone's feelings (ongoing)"
+        },
+        {
+          "id": "emotions_friction_005",
+          "ru": "обидеть",
+          "en": "to offend (once, completed)"
+        },
+        {
+          "id": "emotions_friction_006",
+          "ru": "обижаться на кого-то",
+          "en": "to take offense at someone"
+        },
+        {
+          "id": "emotions_friction_007",
+          "ru": "злиться на кого-то",
+          "en": "to be angry at someone"
+        },
+        {
+          "id": "emotions_friction_008",
+          "ru": "раздражать",
+          "en": "to irritate, to annoy"
+        },
+        {
+          "id": "emotions_friction_009",
+          "ru": "игнорировать",
+          "en": "to ignore"
+        },
+        {
+          "id": "emotions_friction_010",
+          "ru": "избегать",
+          "en": "to avoid"
+        },
+        {
+          "id": "emotions_friction_011",
+          "ru": "придираться",
+          "en": "to nitpick, to find fault"
+        },
+        {
+          "id": "emotions_friction_012",
+          "ru": "упрекать",
+          "en": "to reproach, to blame someone for something"
+        }
+      ]
+    },
+    {
+      "id": "emotions_communication",
+      "name": {
+        "ru": "Общение и речь",
+        "en": "Communication and speech"
+      },
+      "entries": [
+        {
+          "id": "emotions_communication_001",
+          "ru": "шептать",
+          "en": "to whisper"
+        },
+        {
+          "id": "emotions_communication_002",
+          "ru": "кричать",
+          "en": "to shout, to yell"
+        },
+        {
+          "id": "emotions_communication_003",
+          "ru": "жаловаться",
+          "en": "to complain"
+        },
+        {
+          "id": "emotions_communication_004",
+          "ru": "утешать",
+          "en": "to comfort, to console"
+        },
+        {
+          "id": "emotions_communication_005",
+          "ru": "успокаивать",
+          "en": "to calm someone down"
+        },
+        {
+          "id": "emotions_communication_006",
+          "ru": "подбадривать",
+          "en": "to cheer someone on, to encourage"
+        },
+        {
+          "id": "emotions_communication_007",
+          "ru": "хвалить",
+          "en": "to praise"
+        },
+        {
+          "id": "emotions_communication_008",
+          "ru": "ругать",
+          "en": "to scold, to reprimand"
+        },
+        {
+          "id": "emotions_communication_009",
+          "ru": "признаваться в любви",
+          "en": "to confess love"
+        },
+        {
+          "id": "emotions_communication_010",
+          "ru": "извиняться",
+          "en": "to apologize"
+        },
+        {
+          "id": "emotions_communication_011",
+          "ru": "извинить",
+          "en": "to forgive, to excuse"
+        },
+        {
+          "id": "emotions_communication_012",
+          "ru": "прощать",
+          "en": "to forgive"
+        },
+        {
+          "id": "emotions_communication_013",
+          "ru": "простить",
+          "en": "to forgive (once, completed)"
+        },
+        {
+          "id": "emotions_communication_014",
+          "ru": "благодарить",
+          "en": "to thank"
+        },
+        {
+          "id": "emotions_communication_015",
+          "ru": "поблагодарить",
+          "en": "to thank (once, completed)"
+        }
+      ]
+    },
+    {
+      "id": "emotions_feelings",
+      "name": {
+        "ru": "Чувства и состояния",
+        "en": "Feelings and states"
+      },
+      "entries": [
+        {
+          "id": "emotions_feelings_001",
+          "ru": "любить",
+          "en": "to love"
+        },
+        {
+          "id": "emotions_feelings_002",
+          "ru": "влюбляться",
+          "en": "to fall in love (ongoing process)"
+        },
+        {
+          "id": "emotions_feelings_003",
+          "ru": "влюбиться",
+          "en": "to fall in love (once)"
+        },
+        {
+          "id": "emotions_feelings_004",
+          "ru": "нравиться",
+          "en": "to be pleasing to someone, to like (impersonal: мне нравится)"
+        },
+        {
+          "id": "emotions_feelings_005",
+          "ru": "скучать по кому-то",
+          "en": "to miss someone"
+        },
+        {
+          "id": "emotions_feelings_006",
+          "ru": "переживать",
+          "en": "to worry, to be anxious"
+        },
+        {
+          "id": "emotions_feelings_007",
+          "ru": "волноваться",
+          "en": "to be nervous, to be agitated"
+        },
+        {
+          "id": "emotions_feelings_008",
+          "ru": "бояться",
+          "en": "to be afraid of"
+        },
+        {
+          "id": "emotions_feelings_009",
+          "ru": "стыдиться",
+          "en": "to be ashamed of"
+        },
+        {
+          "id": "emotions_feelings_010",
+          "ru": "завидовать",
+          "en": "to envy"
+        },
+        {
+          "id": "emotions_feelings_011",
+          "ru": "радоваться",
+          "en": "to be glad about, to rejoice"
+        },
+        {
+          "id": "emotions_feelings_012",
+          "ru": "расстраиваться",
+          "en": "to get upset"
+        },
+        {
+          "id": "emotions_feelings_013",
+          "ru": "расстроиться",
+          "en": "to get upset (once, completed)"
+        },
+        {
+          "id": "emotions_feelings_014",
+          "ru": "удивляться",
+          "en": "to be surprised"
+        },
+        {
+          "id": "emotions_feelings_015",
+          "ru": "удивиться",
+          "en": "to be surprised (once)"
+        },
+        {
+          "id": "emotions_feelings_016",
+          "ru": "доверять",
+          "en": "to trust"
+        },
+        {
+          "id": "emotions_feelings_017",
+          "ru": "уважать",
+          "en": "to respect"
+        }
+      ]
+    },
+    {
+      "id": "emotions_nouns",
+      "name": {
+        "ru": "Существительные",
+        "en": "Nouns"
+      },
+      "entries": [
+        {
+          "id": "emotions_nouns_001",
+          "ru": "любовь",
+          "en": "love"
+        },
+        {
+          "id": "emotions_nouns_002",
+          "ru": "дружба",
+          "en": "friendship"
+        },
+        {
+          "id": "emotions_nouns_003",
+          "ru": "доверие",
+          "en": "trust"
+        },
+        {
+          "id": "emotions_nouns_004",
+          "ru": "уважение",
+          "en": "respect"
+        },
+        {
+          "id": "emotions_nouns_005",
+          "ru": "забота",
+          "en": "care, concern"
+        },
+        {
+          "id": "emotions_nouns_006",
+          "ru": "поддержка",
+          "en": "support"
+        },
+        {
+          "id": "emotions_nouns_007",
+          "ru": "обида",
+          "en": "hurt, offense, resentment"
+        },
+        {
+          "id": "emotions_nouns_008",
+          "ru": "ссора",
+          "en": "quarrel, argument"
+        },
+        {
+          "id": "emotions_nouns_009",
+          "ru": "радость",
+          "en": "joy"
+        },
+        {
+          "id": "emotions_nouns_010",
+          "ru": "грусть",
+          "en": "sadness"
+        },
+        {
+          "id": "emotions_nouns_011",
+          "ru": "страх",
+          "en": "fear"
+        },
+        {
+          "id": "emotions_nouns_012",
+          "ru": "тревога",
+          "en": "anxiety, unease"
+        },
+        {
+          "id": "emotions_nouns_013",
+          "ru": "стыд",
+          "en": "shame"
+        },
+        {
+          "id": "emotions_nouns_014",
+          "ru": "ревность",
+          "en": "jealousy"
+        },
+        {
+          "id": "emotions_nouns_015",
+          "ru": "нежность",
+          "en": "tenderness"
+        },
+        {
+          "id": "emotions_nouns_016",
+          "ru": "тоска",
+          "en": "longing, melancholy (no direct English equivalent)"
+        },
+        {
+          "id": "emotions_nouns_017",
+          "ru": "взгляд",
+          "en": "a look, a gaze"
+        },
+        {
+          "id": "emotions_nouns_018",
+          "ru": "объятие",
+          "en": "an embrace (usually plural: объятия)"
+        }
+      ]
+    }
+  ]
+}
